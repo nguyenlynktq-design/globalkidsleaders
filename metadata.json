@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Global Kids Leaders",
+  "description": "Dự án đào tạo thế hệ Kid Leaders tự tin giao tiếp tiếng Anh, biết lãnh đạo, thuyết trình và ứng dụng AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

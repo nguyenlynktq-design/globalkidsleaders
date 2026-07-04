@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  --color-brand-primary: #0f2d59;
+  --color-brand-primary-light: #e08400;
+  --color-brand-primary-dark: #0a2142;
+  --color-brand-bg: #f8f9ff;
+  --color-brand-secondary: #0f2d59;
+  --color-brand-mint: #fffbf5;
+  --color-brand-dark-bg: #091b35;
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .glass-card-light {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .amber-glow {
+    box-shadow: 0 4px 20px rgba(224, 132, 0, 0.2);
+  }
+
+  .scarcity-pulse {
+    animation: pulse 2s infinite;
+  }
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
+
+html {
+  scroll-behavior: smooth;
+}
