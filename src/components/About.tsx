@@ -85,7 +85,7 @@ export default function About({ onPlayClick }: AboutProps) {
               <img
                 alt="Digital Learning Scene"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                src="/src/assets/images/vietnamese_students_ai_1783147024575.jpg"
+                src="https://i.postimg.cc/zXSWRstp/2a-Obo-Qi44Qo-A9HXcfz-IGcv-Sx-YCeaxz-Nr3WMFpu-XA.jpg"
               />
               
               {/* Play Overlay */}
